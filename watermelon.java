@@ -5,8 +5,8 @@ public class watermelon {
         Scanner sc = new Scanner(System.in);
         int w = sc.nextInt();
 
-        // This problem was about dividing a number into two even parts
-        // only even numbers can be divide into two even numbers
+        // This problem was about dividing a number(watermelon) into two even parts
+        // only even numbers can be divided into two even numbers
         // 2 would be the only exception to this rule
 
         if ( w!=2 && w%2 == 0){
