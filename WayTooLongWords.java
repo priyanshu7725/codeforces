@@ -10,7 +10,8 @@ public class WayTooLongWords {
             int len = str.length();
             if ( len > 10){
                 // we add "" so that the characters are treated as strings and  concatanated 
-                // otherwise their ascii values will be taken as integers and added with (len-2)
+                // otherwise their ascii values will be taken as integers and the result will
+                // be an integer that is the addition of ascii values and len-2
                 System.out.println(str.charAt(0) + "" + (len-2) + str.charAt(len-1));
             }
             else {
