@@ -7,13 +7,15 @@ public class APlusBAgain {
 
         for (int i = 0; i < t; i++) {
             int n = sc.nextInt();
-            int sum = 0;
-
-            while ( n > 0) {
-                int digit = n%10;
-                sum += digit;
-                n = n/10;
-            }
+            
+            // while ( n > 0) {
+            //     int digit = n%10;
+            //     sum += digit;
+            //     n = n/10;
+            // }
+            int sum = n/10 + n%10;
+            // can write this also instead of above while loop
+            // since 'n' is always a two digit number
 
             System.out.println(sum);
         }
