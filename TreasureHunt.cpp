@@ -5,8 +5,7 @@ int main() {
     int t;
     cin>>t;
     while (t--) {
-        int x,y;
-        float a;
+        int x,y,a;
         int depth = 0;
         bool lilB = true;
         cin>>x>>y>>a;
